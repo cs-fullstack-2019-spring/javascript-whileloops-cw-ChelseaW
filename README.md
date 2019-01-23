@@ -1,3 +1,5 @@
+### KEY - Mostly correct, but check your exercise 2
+
 # JavaScript-whileloops-cw
 Classwork: JavaScript While/Do While Loops
 

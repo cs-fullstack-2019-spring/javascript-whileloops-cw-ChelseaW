@@ -17,15 +17,20 @@
     }
     console.log("Done");
 
-    CW2
+    CW2 
+    // Continue statement provides the best solution
+    // Your code detected when it was '5' but you were printing before you checked value, so 5 still displayed.
     var countdown = 10;
     while(countdown >= 0)
     {
-        console.log("countdown" + countdown);
         countdown --;
         if(countdown === 5){
-        console.log("Except");
-    }
+            // console.log("Except");
+            continue; // Skip the console.log 
+        }
+
+        console.log("countdown" + countdown);
+        
     }
 
     CW3
